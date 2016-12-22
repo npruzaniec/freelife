@@ -59,6 +59,7 @@ body {
 }
 .signature  {
 	text-align: right;
+	margin-bottom: 0;
 }
 .signature img {
 	display: inline-block;
