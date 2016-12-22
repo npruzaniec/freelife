@@ -103,7 +103,7 @@ form li div label,form li span label,.likert caption,.likert tbody th label,.lik
 	font-size:120%
 }
 .wufoo input.text,.wufoo textarea.textarea,.wufoo select.select,form li.complex div span.full input {
-	width:100%;
+	width:80%;
 	height:36px;
 	padding:3px 9px;
 	line-height:1.42857143;
@@ -280,8 +280,8 @@ button.link {
 	left:2px
 }
 .wufoo li.focused {
-	border-radius:5px;
-	background:#E5F0FF
+	//border-radius:5px;
+	//background:#E5F0FF
 }
 form li .datepicker {
 	margin-left:15px
@@ -313,7 +313,13 @@ form li.time select.select {
 	box-shadow:none;
 	color:#ffffff;
 	background-color:#3498db
-}
+} 
 .rating span{
 	margin-right:10px
+}
+li.buttons {
+	text-align: center;
+}
+li.buttons a[style] {
+	display:none !important;
 }
