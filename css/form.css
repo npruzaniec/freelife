@@ -106,7 +106,7 @@ form li div label,form li span label,.likert caption,.likert tbody th label,.lik
 	font-size:120%
 }
 .wufoo input.text,.wufoo textarea.textarea,.wufoo select.select,form li.complex div span.full input {
-	width:80%;
+	width:90%;
 	height:36px;
 	padding:3px 9px;
 	line-height:1.42857143;
@@ -116,6 +116,9 @@ form li div label,form li span label,.likert caption,.likert tbody th label,.lik
 	border:2px solid #DEDCDC;
 	//border-radius:4px;
 	box-shadow:inset 0 1px 1px rgba(0,0,0,0.075)
+}
+.desc {
+	display:none;
 }
 form li.complex div span.left,form li.complex div span.right {
 	margin:0;
