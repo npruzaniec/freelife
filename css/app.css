@@ -1,26 +1,141 @@
+.row {
+	max-width: inherit;
+}
 h1 {
+	font-family: 'Quicksand', sans-serif;
 	color: #e68962;
-	font-weight: bold;
-	font-size: 18px;
+	font-weight: 700;
+	font-size: 26px;
 }
 h1 span {
 	color: #e68962;
 	font-weight: normal;
-	font-size: 11px;
+	font-size: 18px;
+}
+
+h2 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+}
+h3 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 26px;
+	font-weight: 400;
+}
+.page-wrap p {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+	line-height: 1.5em
+}
+body {
+
+	position: relative;
+	background-image: url('../img/background-img.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+}
+.page-wrap .content-wrap {
+	padding: 50px;
 }
 .page-wrap {
-	background-image: url('https://rampages.us/izdivine/wp-content/uploads/sites/8175/2015/10/iStock_000012953502Medium.jpg');
+	//position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.75) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.75) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.75) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
 }
-.signature {
+.logo-image {
+	width: 100%;
+	max-width: 500px;
+}
+.logo-image p.tag {
+	font-size: 20px;
+	text-align: center;
+	color: #0F8680;
+}
+.signature  {
+	text-align: right;
+}
+.signature img {
 	display: inline-block;
 	padding: 5px;
 }
+.row .columns:first-of-type {
+	padding-left: 0;
+}
+.row .columns:last-of-type {
+	padding-right: 0;
+}
+.challenge {
+	width: 100%;
+	max-width: 100%;
+	padding: 20px 15px;
+}
+.challenge .badge {
+	display: block;
+	float: left;
+	margin-top: 5px;
+	margin-right: 10px;
+	font-size: 20px;
+	font-weight: 700;
+	color: #fff;
+}
+.challenge h2 {
+	display: block;
+}
+.start h3 {
+	display: inline;
+}
+.start a.button {
+	font-size: inherit;
+	padding: 15px;
+	margin: 0 20px;
+	border-radius: 10px;
+	//float: right;
+}
+.start a.button h1, .start a.button h2, .start a.button h3 {
+	margin: 0;
+}
+.form-wrap {
+	background-color: #e68962;
+	border-radius: 10px;
+	text-align: center;
+}
+.form-wrap h3 {
+	line-height: 1.2em;
+}
+.form-wrap h3 span{
+	font-size: .8em;
+}
+/*.form-wrap iframe {
+	width: 100%;
+	height: 400px;
+}*/
+
 
 footer {
+	font-family: 'Quicksand', sans-serif;
+	display: block;
 	position: fixed;
+	color: white;
+	padding: 5px 50px;
 	bottom: 0;
-	background-color: #fff;
+	left: 0;
+	right: 0;
+	background-color: #5dc1b0;
+}
+footer p {
+	display: inline-block;
+	margin: 0;
 }
 .float-right {
+	display: inline;
 	float: right;
 }
