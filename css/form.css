@@ -71,7 +71,10 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 
-
+.embed body {
+	padding: 5px;
+	background-color: #fff;
+}
 
 body,.wufoo,.wufoo label.desc,.wufoo legend.desc,.wufoo .info h2,.wufoo .info div,.wufoo input.text,.wufoo textarea.textarea,.wufoo input.file,.wufoo li div,.wufoo li span,.wufoo li div label,.wufoo li span label,.likert caption,.likert thead td,.likert tbody th label,.wufoo .section h3,.wufoo .section div,.paging-context{
 	font-family:'Quicksand', Helvetica, Arial, sans-serif;
