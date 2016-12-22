@@ -1,0 +1,26 @@
+h1 {
+	color: #e68962;
+	font-weight: bold;
+	font-size: 18px;
+}
+h1 span {
+	color: #e68962;
+	font-weight: normal;
+	font-size: 11px;
+}
+.page-wrap {
+	background-image: url('https://rampages.us/izdivine/wp-content/uploads/sites/8175/2015/10/iStock_000012953502Medium.jpg');
+}
+.signature {
+	display: inline-block;
+	padding: 5px;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	background-color: #fff;
+}
+.float-right {
+	float: right;
+}
