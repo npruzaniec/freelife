@@ -328,7 +328,7 @@ form li.time select.select {
 	margin-right:10px
 }
 li.buttons {
-	text-align: right;
+	text-align: left;
 	height: 45px;
 }
 li.buttons a {

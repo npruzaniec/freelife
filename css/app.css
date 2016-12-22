@@ -41,6 +41,9 @@ body {
 .page-wrap .content-wrap {
 	padding: 50px;
 }
+#main {
+	margin-bottom: 50px;
+}
 .page-wrap {
 	min-height: 100vh;
 	background: -moz-linear-gradient(top, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.8) 100%); /* FF3.6-15 */
@@ -77,17 +80,55 @@ body {
 	max-width: 100%;
 	padding: 20px 15px;
 }
-.challenge .badge {
-	display: block;
+.challenge .columns {
+	display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+.challenge .columns .badge {
+	/*display: block;
 	float: left;
-	margin-top: 5px;
+	margin-top: 5px;*/
 	margin-right: 10px;
 	font-size: 20px;
 	font-weight: 700;
 	color: #fff;
+	-webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
 }
 .challenge h2 {
-	display: block;
+	//display: block;
+	-webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
 }
 .start h3 {
 	display: inline;
@@ -140,7 +181,33 @@ footer p {
 	display: inline-block;
 	margin: 0;
 }
+footer a {
+	display: inline-block;
+	margin: 0;
+	color: #fff;
+}
 .float-right {
 	display: inline;
 	float: right;
+}
+
+@media screen and (max-width: 1024px) {
+	.signature img {
+	    display: block;
+	    margin-left: 100%;
+	    float: right;
+	}
+	.challenge .badge {
+		display: inline-block;
+	}
+	.challenge h2 {
+		display: inline-block;
+		margin-top: 8px;
+	}
+	.row .columns:first-of-type {
+		padding-left: 15px;
+	}
+	h1 span {
+		display: block;
+	}
 }
