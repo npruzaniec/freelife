@@ -210,4 +210,12 @@ footer a {
 	h1 span {
 		display: block;
 	}
+	.form-wrap {
+		margin-bottom: 50px;
+	}
+}
+@media screen and (max-width: 640px) {
+	.form-wrap {
+		margin-bottom: 110px;
+	}
 }
