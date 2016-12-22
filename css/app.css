@@ -25,6 +25,7 @@ h3 {
 }
 .page-wrap p {
 	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
 	font-size: 20px;
 	line-height: 1.5em
 }
@@ -107,6 +108,11 @@ body {
 	background-color: #e68962;
 	border-radius: 10px;
 	text-align: center;
+	padding: 8px;
+}
+.form-wrap p {
+	font-size: 16px;
+	font-weight: 700;
 }
 .form-wrap h3 {
 	line-height: 1.2em;
