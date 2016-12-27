@@ -334,3 +334,7 @@ li.buttons {
 li.buttons a {
 	opacity: 0;
 }
+
+.create-message, .create-message + a, .logo-container {
+	display: none;
+}
