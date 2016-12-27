@@ -133,10 +133,13 @@ body {
 .start h3 {
 	display: inline;
 }
+.start > h3 {
+	padding-right: 20px;
+}
 .start a.button {
 	font-size: inherit;
 	padding: 15px;
-	margin: 0 20px;
+	//margin: 0 20px;
 	border-radius: 10px;
 	//float: right;
 }
@@ -159,11 +162,6 @@ body {
 .form-wrap h3 span{
 	font-size: .8em;
 }
-/*.form-wrap iframe {
-	width: 100%;
-	height: 400px;
-}*/
-
 
 footer {
 	font-family: 'Quicksand', sans-serif;
@@ -215,7 +213,41 @@ footer a {
 	}
 }
 @media screen and (max-width: 640px) {
+	body {
+		background-image: url('../img/background-img-mobile.jpg');
+	}
+	.page-wrap .content-wrap {
+		padding: 25px;
+	}
 	.form-wrap {
 		margin-bottom: 110px;
+	}
+	.columns.sticky-container {
+		padding-left: 0;
+	}
+	.row.challenge {
+		margin-right:0;
+		margin-left:0;
+		padding:15px 0;
+	}
+	.start {
+		text-align: center;
+	}
+	.start > h3 {
+		display: block;
+		padding: 0;
+	}
+	footer p {
+		text-align: center;
+		display: block;
+	}
+	.float-right {
+		width: 100%;
+		display: block;
+		text-align: center;
+		font-size: 80%;
+	}
+	.small-12 {
+		min-height: 66px;
 	}
 }
