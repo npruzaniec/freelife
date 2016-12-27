@@ -336,5 +336,5 @@ li.buttons a {
 }
 
 .create-message, .create-message + a, .logo-container {
-	display: none;
+	display: none !important;
 }
