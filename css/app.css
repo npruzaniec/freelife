@@ -208,9 +208,6 @@ footer a {
 	h1 span {
 		display: block;
 	}
-	.form-wrap {
-		margin-bottom: 50px;
-	}
 }
 @media screen and (max-width: 640px) {
 	body {
@@ -219,8 +216,8 @@ footer a {
 	.page-wrap .content-wrap {
 		padding: 25px;
 	}
-	.form-wrap {
-		margin-bottom: 110px;
+	.page-wrap {
+		padding-bottom: 80px;
 	}
 	.columns.sticky-container {
 		padding-left: 0;
